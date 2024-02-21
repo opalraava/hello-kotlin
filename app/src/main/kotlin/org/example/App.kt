@@ -4,17 +4,19 @@
 package org.example.helloworld
 
 class App {
-    val greeting: String
-        get() {
-            return "Hello World!"
-        }
+    val greeting: String get() {
+        return "Hello World!"
+    }
+
+    var hello: String? = null
 //    fun doIt(pair: Pair<String, String>) {
 //        println("-> ${pair.first}, ${pair.second} <-")
+//        hello = pair.first
 //    }
 }
 
 fun main() {
-    val pair = "Hello" to "World"
     println(App().greeting)
-//    App().doIt(pair)
+
+//    App().doIt("Hello" to "World")
 }
