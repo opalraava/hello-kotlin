@@ -30,5 +30,5 @@ fun main() {
     app.hello = "[This is just a test]"
     println(app.hello)
     app.doIt("Hello" to "World")
-    println("app.hello = '${app.hello}")
+    println("app.hello = '${app.hello}'")
 }
